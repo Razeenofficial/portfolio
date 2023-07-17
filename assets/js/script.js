@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Razeen Sable";
+            document.title = "Portfolio | Razeen ";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
